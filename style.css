@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family:courier;
+    font-size:8;
+    color: green;
+}
+
+.prompt {
+    color: orange;
+}
+
+.dirWork {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+}
+
+.dir {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+}
+
+.cursor {
+    animation: blinker 0.8s linear infinite;
+    }
+    @keyframes blinker {  
+        50% { opacity: 0; }
+        }
+
+.picture {
+    font-size: 30%;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <script src="script.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="Images/TitleIcon.ico"/>
+    <title>My CV</title>
+</head>
+<body>
+    <!-- Prepare Web Storage -->
+    <script>InitialWebStorage()</script>
+
+    <!-- Header -->
+    <header>
+        My CV [Version 2020.01.25]<br>
+        Copyright (C) <Strong style="color:red;"><script>PrintWebStorageVariable("Name")</script></Strong>. All right reserved.<br>
+        Email: xittichai@gmail.com
+    </header>
+    <main>
+        <br>
+        <p>
+            <p><span class="prompt">S:\></span>DisplayCV.bat</p><br>
+            <!-- Display Picture -->
+            <span class="prompt">S:\></span>DisplayPicture.exe Picture.jpg<br><br>
+            <div w3-include-html="Images/Picture.html"></div> 
+            <script>w3IncludeHTML();</script>
+        </p>
+        <br>
+        <!-- Display Working Experiences-->
+        <p>
+            <span class="prompt">S:\></span>dir/W/o/r/k Working\Experiences<br>
+            <div class="dirWork">
+                <!-- Header -->
+                <div>Year</div>
+                <div>Company</div>
+                <div>Position</div>
+                <!-- Header Underline-->
+                <div>----</div>
+                <div>-------</div>
+                <div>--------</div>
+                <!-- Row 1 -->
+                <div>2019-2020</div>
+                <div>CRC Sports Co., Ltd.</div>
+                <div>Head of Merchandise - Softline Consignment</div>
+                <!-- Row 2 -->
+                <div>2019-2019</div>
+                <div>MK Co., Ltd. (Myanmar)</div>
+                <div>Head of Brand Operations and Visual Merchandise</div>
+                <!-- Row 3 -->
+                <div>2018-2019</div>
+                <div>UA Sports (Thailand) Co., Ltd.</div>
+                <div>Merchandising Manager</div>
+                <!-- Row 4 -->
+                <div>2017-2018</div>
+                <div>Bata (Thailand) Co., Ltd.</div>
+                <div>Chief of Merchandising Manager</div>
+                <!-- Row 5 -->
+                <div>2016-2017</div>
+                <div>Bata (Thailand) Co., Ltd.</div>
+                <div>Merchandise Planning Manager</div>
+                <!-- Row 6 -->
+                <div>2015-2016</div>
+                <div>Bata (Thailand) Co., Ltd.</div>
+                <div>Store Operations Manager</div>
+                <!-- Row 7 -->
+                <div>2009-2014</div>
+                <div>Bata (Thailand) Co., Ltd.</div>
+                <div>IT Manager</div>
+                <!-- Row 8 -->
+                <div>2008-2009</div>
+                <div>Bata (Thailand) Co., Ltd.</div>
+                <div>OTB Manager</div>
+                <!-- Row 9 -->
+                <div>2007-2008</div>
+                <div>Bata (Thailand) Co., Ltd.</div>
+                <div>Buyer</div>
+                <!-- Row 10 -->
+                <div>2004-2007</div>
+                <div>Nam Nueng Marketing Co., Ltd.</div>
+                <div>Marketing Manager</div>
+                <!-- Row 11 -->
+                <div>1996-2004</div>
+                <div>Bara Leasing Co., Ltd.</div>
+                <div>Marketing Officer</div>
+                <!-- Row 12 -->
+                <div>1995-1995</div>
+                <div>Hi Tech Medical Hospital Co., Ltd.</div>
+                <div>Assistant Financial Manager</div>
+            </div>
+        </p>
+        <br>
+        <!-- Display Education Background-->
+        <p>
+            <span class="prompt">S:\></span>dir Education\Background<br>
+            <div class="dir">
+                <!-- Header -->
+                <div>Year</div>
+                <div>Institute</div>
+                <div>Certificate</div>
+                <div>Major</div>
+                <div>GPA</div>
+                <!-- Header Underline -->
+                <div>----</div>
+                <div>---------</div>
+                <div>-----------</div>
+                <div>-----</div>
+                <div>---</div>
+                <!-- Row 1 -->
+                <div>2006</div>
+                <div>University of the Thai Chamber of Commerce</div>
+                <div>MBA</div>
+                <div>International Business</div>
+                <div>3.65</div>
+                <!-- Row 2 -->
+                <div>2004</div>
+                <div>Chandrakasem Rajabhat University</div>
+                <div>A.Sc.</div>
+                <div>Electronics</div>
+                <div>3.75</div>
+                <!-- Row 3 -->
+                <div>1995</div>
+                <div>Kasetsart University</div>
+                <div>BA</div>
+                <div>Home Economics Education</div>
+                <div>2.50</div>
+            </div>
+        </p>
+        <br>
+        <p>
+            <!-- Display Skills -->
+            <span class="prompt">S:\></span>type Skills.txt<br>
+            <script>PrintWebStorageVariable("Skills")</script><br>
+        </p>
+    </main>
+</body>
