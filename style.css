@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family:courier;
-    font-size:8;
+    font-size:1.5vw;
     color: green;
 }
 
@@ -31,5 +31,5 @@ body {
         }
 
 .picture {
-    font-size: 30%;
+    font-size: 0.8vw;
 }
