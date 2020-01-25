@@ -7,7 +7,7 @@
     <title>My CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body onkeypress="Config(String.fromCharCode(event.keyCode))">
     <!-- Prepare Web Storage -->
     <script>InitialWebStorage()</script>
 
@@ -131,6 +131,17 @@
             <!-- Display Skills -->
             <span class="prompt">S:\></span>type Skills.txt<br>
             <script>PrintWebStorageVariable("Skills")</script><br>
+        </p>
+        <p>
+            <!-- Display Menu -->
+            <span class="prompt">S:\></span>Menu.exe<br>
+            Please enter your choice<br>
+            <ol>
+                <li>Change Name</li>
+                <li>Change Skill</li>
+                <li>Change Background Color</li>
+            </ol>
+            <span class="cursor">_</span>
         </p>
     </main>
 </body>
